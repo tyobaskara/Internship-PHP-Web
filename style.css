@@ -1,0 +1,189 @@
+#log-utama {
+	background-color: #FC6;
+	background-image: url(Template/images/log_background.gif);
+	background-repeat: repeat;
+	height: auto;
+	width: auto;
+	border: 1px solid #F93;
+	box-shadow: 5px 5px 5px #F93;
+}
+
+#log-header {
+	height: 121px;
+	width: auto;
+	background-image: url(Template/images/log_header.gif);
+	border: 1px solid #F93;
+	box-shadow: 5px 5px 5px #F93;
+}
+#text-header {
+	background-image: url(Template/images/text_header.gif);
+	background-repeat: no-repeat;
+	background-position: 139px;
+	height: 121px;
+	width: 281px;
+}
+#text-header {
+	background-image: url(Template/images/text_header.gif);
+	background-repeat: no-repeat;
+}
+#text {
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+}
+#slogan {
+	font-size: 12px;
+	color: #06F;
+	float: right;
+	margin-top: 140px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#text {
+	font-size: 12px;
+	font-weight: bold;
+	color: #06F;
+	float: right;
+	margin-top: 140px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.text {
+	font-size: 12px;
+	font-weight: bold;
+	color: #06F;
+	float: right;
+	margin-top: 90px;
+	margin-right: 25px;
+	margin-bottom: 0px;
+}
+#log-header-menu {
+	color: #333;
+	background-image: url(Template/images/log_menu_atas.gif);
+	background-repeat: repeat;
+	height: 25px;
+	width: auto;
+	padding-top: 0px;
+	border: 1px solid #F93;
+	/* [disabled]box-shadow: 5px 5px 5px #F93; */
+	font-weight: bold;
+	padding-right: 5px;
+	border-style: ridge;
+}
+
+.content {
+	padding: 10px 0;
+	width: 780px;
+	float: left;
+}
+.add {	color: #333;
+}
+.add {	font-weight: bold;
+}
+.change {	font-weight: bold;
+	color: #333;
+}
+.delete {	font-weight: bold;
+	color: #333;
+}
+.sidebar1 {
+	float: left;
+	width: 180px;
+	background: #FFC;
+	padding-bottom: 30px;
+
+
+
+	border-color: #F93:
+	border: 15px solid #F93;
+	box-shadow: 15px 15px 15px #F93;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+	padding-left:0;
+	padding-bottom: 5;
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+	color: #00F;
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 15px 5px 5px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: inherit;
+	background: #FFC;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background: #FC3;
+	color: #000;
+	font-size: 18px;
+}
+
+#st {
+	font-weight: bold;
+	color: #06F;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 27px;
+	border: 5px solid #F93;
+	box-shadow: 180;
+	margin-top: 5px;
+}
+a:link {
+	color: #333;
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: underline;
+	color: #00C;
+}
+#logout {
+	font-weight: bold;
+	float: right;
+	color: #F00;
+}
+
+body { background-image:url(Images/apache_helicopter_sunset.jpg); 
+height: auto;
+	width: auto;
+}
+
+#background {
+	background-image: url(Images/apache_helicopter_sunset.jpg);
+	background-repeat: no-repeat;
+	height: auto;
+	width: auto;
+	border: 1px solid #F93;
+	box-shadow: 5px 5px 5px #F93;
+}
+.tes {
+	color: #900;
+}
+
+
+#footer {
+	background-image: url(Template/images/log_menu_atas.gif);
+	background-repeat: repeat;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #F93;
+	box-shadow: 5px 5px 5px #F93;
+	color: #333;
+	width: auto;
+}
+
+.menutbl{
+	border-radius:20px;
+}
